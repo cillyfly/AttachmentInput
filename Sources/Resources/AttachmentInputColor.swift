@@ -15,7 +15,8 @@ class AttachmentInputColor {
     }
 
     @nonobjc class var primaryColor: UIColor {
-        return UIColor(red: 216.0 / 255.0, green: 37.0 / 255.0, blue: 9.0 / 255.0, alpha: 1.0)
+        // blue
+        return UIColor.systemBlue
     }
 
     @nonobjc class var white: UIColor {
