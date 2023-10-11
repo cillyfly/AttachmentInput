@@ -22,7 +22,7 @@ class PhotoCell: UICollectionViewCell {
     private var disposeBag = DisposeBag()
     
     override func awakeFromNib() {
-        checkIconView.tintColor = AttachmentInputColor.primaryColor
+        checkIconView.image?.withTintColor(AttachmentInputColor.primaryColor)
         self.setGradation(view: self.gradationView)
     }
     
